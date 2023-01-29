@@ -38,6 +38,26 @@ h3 {
   font-size: 44px;
 }
 
+button {
+  padding: 1.1rem 1.7rem;
+  background-color: var(--clr-primary);
+  border: solid var(--clr-primary) 2px;
+  border-radius: 500px;
+  color: white;
+  font-family: "Work Sans", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  transition: all 0.2s ease-in-out;
+  width: fit-content;
+  letter-spacing: 0.1rem;
+}
+
+button:hover,
+button:focus {
+  background-color: black;
+  border: solid black 2px;
+}
+
 header {
   background: url("images/header_background.png");
   height: 90vh;
@@ -102,12 +122,12 @@ header button {
   justify-content: space-between;
   flex-wrap: wrap;
   position: relative;
+  height: 70%;
 }
 .card {
   padding: 2rem;
   border-radius: 10px;
   flex: 1 1 300px;
-  height: 60vh;
   min-height: 470px;
   max-width: 80%;
   text-align: left;
@@ -131,6 +151,7 @@ header button {
   background-color: var(--clr-secondary);
   border: solid var(--clr-primary) 2px;
   color: var(--clr-primary);
+  padding: 0.9rem 1.7rem;
 }
 .card button:hover {
   background-color: var(--clr-primary);
@@ -147,6 +168,13 @@ header button {
   gap: 2rem;
   justify-content: space-between;
 }
+.htb_container div:nth-child(1) {
+  display: flex;
+  flex-direction: column;
+}
+.htb_container div:nth-child(1) button {
+  margin-top: auto;
+}
 
 .htb_container > * {
   width: 45%;
@@ -154,22 +182,6 @@ header button {
 }
 form input[type="submit"] {
   display: none;
-}
-
-button {
-  padding: 0.64rem 1.3rem 0.5rem;
-  background-color: var(--clr-primary);
-  border-radius: 500px;
-  color: white;
-  font-family: sans-serif;
-  border: none;
-  text-align: center;
-  transition: all 0.2s ease-in-out;
-  width: fit-content;
-}
-button:hover,
-button:focus {
-  background-color: black;
 }
 
 /* Making and Styling the Scrolling banner*/
@@ -192,13 +204,13 @@ section .scroll {
 
 section .scroll div {
   color: var(--clr-secondary);
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   background-color: black;
   white-space: nowrap;
-  font-family: sans-serif;
+  font-family: "Work Sans", sans-serif;
   animation: animate 40s linear infinite;
   animation-delay: -40s;
-  padding-top: 1rem;
+  padding-top: 0.7rem;
   padding-bottom: 0.7rem;
 }
 section .scroll div:nth-child(1) {
