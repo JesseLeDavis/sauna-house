@@ -24,6 +24,15 @@ body {
   margin: 0;
 }
 
+*:focus {
+  outline: none;
+}
+* {
+  border-style: none;
+  box-sizing: border-box;
+  margin: 0;
+}
+
 /**
    * Render the `main` element consistently in IE.
    */

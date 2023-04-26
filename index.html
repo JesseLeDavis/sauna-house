@@ -9,87 +9,108 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500&display=swap"
       rel="stylesheet"
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="properties.css" />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header>
-      <nav>
-        <img src="images/" alt="" />
-        <ul>
-          <li>OUR MISSION</li>
-          <li>SERVICES</li>
-          <li>WELLNESS GUIDE</li>
-          <li>SHOP</li>
-        </ul>
-      </nav>
-      <div class="top container">
-        <h1>A bathhouse that&apos;s good for the planet & everyone on it</h1>
-        <button>FOUND OUT WHY</button>
+      <div class="container">
+        <nav class="text-neutral-100 ff-body fs-100 fw-bold">
+          <span
+            ><a href="https://www.instagram.com/sauna_house/?hl=en"
+              ><img src="images/insta.svg" alt="instagram link" /></a
+          ></span>
+          <ul>
+            <li><a href="mission.html">OUR MISSION</a></li>
+            <li>SERVICES</li>
+            <img src="images/logo.svg" alt="" />
+            <li>WELLNESS GUIDE</li>
+            <li>SHOP</li>
+          </ul>
+          <span
+            ><a href="https://www.instagram.com/sauna_house/?hl=en"
+              ><img src="images/cart.svg" alt="cart link" /></a
+          ></span>
+        </nav>
+        <h1 class="ff-header fw-semi-bold fs-1000 text-primary-100">
+          A bathhouse that&#39;s good for the planet & everyone on it
+        </h1>
+        <button class="btn-main">FOUND OUT WHY</button>
       </div>
     </header>
-    <div class="mission_statement_block">
-      <h3 class="container">
-        We’re a modern bathhouse committed to enhancing bathing culture & social
-        wellness
+    <div class="text-neutral-900 bg-primary-100">
+      <h3 class="container center-text ff-header lh-160 fs-900 fw-semi-bold">
+        We&#39;re a modern bathhouse committed to enhancing bathing culture &
+        social wellness
       </h3>
-      <p>
-        We’ve created a space to bring the ancient practice of communal bathing
-        into the modern world to inspire connection and healing. Discover the
-        mental and physical benefits of Hot/Cold/Relax Therapy and be a part of
-        our community of humans looking to take care of themselves, their
-        community, and the planet.
+      <p class="container-med center-text lh-160 ff-body fs-200 fw-regular">
+        We&#39;ve created a space to bring the ancient practice of communal
+        bathing into the modern world to inspire connection and healing.
+        Discover the mental and physical benefits of Hot/Cold/Relax Therapy and
+        be a part of our community of humans looking to take care of themselves,
+        their community, and the planet.
       </p>
-      <button>SUSTAINABLE FOR PEOPLE & PLANET</button>
+      <button class="btn-main middle">SUSTAINABLE FOR PEOPLE & PLANET</button>
     </div>
     <div class="cards_block">
-      <h1>Visit Sauna House Asheville</h1>
+      <h1 class="text-primary-100 fs-1000 ff-header fw-semi-bold">
+        Visit Sauna House Asheville
+      </h1>
       <div class="card_container container">
         <div class="card">
           <img src="Images/bathhouse.svg" alt="Bathouse Icon" />
-          <h2>Bathhouse</h2>
-          <p>
+          <h2 class="ff-header fs-800 text-neutral-900 fw-semi-bold">
+            Bathhouse
+          </h2>
+          <p class="ff-body fs-100 fw-regular text-neutral-900">
             2 hours of Hot/Cold/Relax Therapy with our aspen wood sauna, dry
             cedar sauna, cold showers, cold plunge, heated benches, and lounge
             space.
           </p>
-          <button>LEARN MORE</button>
+          <button class="btn-secondary">LEARN MORE</button>
         </div>
         <div class="card">
           <img src="Images/massage.svg" alt="Massage Icon" />
-          <h2>Massage</h2>
-          <p>
+          <h2 class="ff-header fs-800 text-neutral-900 fw-semi-bold">
+            Massage
+          </h2>
+          <p class="ff-body fs-100 fw-regular text-neutral-900">
             Choose from our deep tissue, integrative massage, or couples massage
             package. All massages include a 2-hour visit to the Bathhouse.
           </p>
-          <button>LEARN MORE</button>
+          <button class="btn-secondary">LEARN MORE</button>
         </div>
         <div class="card">
           <img src="Images/infrared.svg" alt="Infared Icon" />
-          <h2>Infrared Sauna</h2>
-          <p>
+          <h2 class="ff-header fs-800 text-neutral-900 fw-semi-bold">
+            Infrared Sauna
+          </h2>
+          <p class="ff-body fs-100 fw-regular text-neutral-900">
             Enjoy a 45-minutes session of calming and detoxing bliss that will
             make you glow in either our upstairs or downstairs infrared sauna.
           </p>
-          <button>LEARN MORE</button>
+          <button class="btn-secondary">LEARN MORE</button>
         </div>
       </div>
     </div>
-    <div class="htb_block">
+    <div class="bg-neutral-300">
       <div class="htb_container container">
-        <div>
-          <h4>HOT/COLD/RELAX&trade;</h4>
-          <h1>Three steps, hundreds of benefits</h1>
-          <button>HOW TO BATHHOUSE</button>
+        <div class="text-neutral-900">
+          <h4 class="ff-alt fs-600 fw-semi-bold">HOT/COLD/RELAX&trade;</h4>
+          <h1 class="ff-header fw-semi-bold fs-1000">
+            Three steps, hundreds of benefits
+          </h1>
+          <button class="btn-main">HOW TO BATHHOUSE</button>
         </div>
         <div><img src="Images/htb_img.png" alt="" /></div>
       </div>
@@ -119,70 +140,83 @@
       </div>
     </section>
     <div class="madness_block">
-      <h1>
+      <h1 class="ff-header fw-semi-bold fs-1000 text-primary-900">
         There's a method<br />
         to our madness
       </h1>
-      <button>READ THE WELLNESS GUIDE</button>
+      <button class="btn-main">READ THE WELLNESS GUIDE</button>
     </div>
-    <div>
-      <h1>
+    <div class="merch_block text-primary-900">
+      <h1 class="ff-header fw-semi-bold fs-1000">
         Preorder our bathing bundles<br />
         (Shipping December 1st!)
       </h1>
-      <p>
+      <p class="ff-body fs-200 fw-semi-bold">
         Save some dough (25%!), and enjoy the good vibes these hand-crafted
         products inspire. We make them here in Asheville in partnership with
         some other rad avl brands.
       </p>
-      <button>GO TO THE SHOP</button>
+      <button class="btn-main">GO TO THE SHOP</button>
+    </div>
+
+    <div class="acolades-block">
+      <div class="acolades container">
+        <div><img src="images/logos/tajc.png" alt="" /></div>
+        <div><img src="images/logos/tnyt.png" alt="" /></div>
+        <div><img src="images/logos/Entrepreneur.png" alt="" /></div>
+        <div><img src="images/logos/jawbreaking.png" alt="" /></div>
+      </div>
     </div>
 
     <footer>
-      <div>
-        <h1>
-          Join our community of humans passionate about taking care of
-          themselves, their community, and the planet.
-        </h1>
-        <p>
-          Our newsletters are intentionally designed to improve your life with
-          helpful health info, blog posts about well-being, and some monthly
-          specials. Good stuff only.
-        </p>
-        <form action="" method="get">
-          <input type="email" />
-          <label>
-            <input type="submit" />
-            <svg
-              width="24"
-              height="16"
-              viewBox="0 0 24 16"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <rect
-                x="0.75"
-                y="0.75"
-                width="22.5"
-                height="14.5"
-                stroke="#F4F3E7"
-                stroke-width="1.5"
-              />
-              <path
-                d="M1 1L9.98198 9.16544C11.1262 10.2057 12.8738 10.2057 14.018 9.16544L23 1"
-                stroke="#F4F3E7"
-                stroke-width="1.5"
-              />
-              <path
-                d="M23 15L15.3 8M1 15L8.7 8"
-                stroke="#F4F3E7"
-                stroke-width="1.5"
-              />
-            </svg>
-          </label>
-        </form>
+      <div class="footer-container container text-primary-100">
+        <div class="footer-cta">
+          <h1 class="ff-header fs-900 fw-semi-bold">
+            Join our community of humans passionate about taking care of
+            themselves, their community, and the planet.
+          </h1>
+          <p class="ff-body fs-200 fw-semi-bold">
+            Our newsletters are intentionally designed to improve your life with
+            helpful health info, blog posts about well-being, and some monthly
+            specials. Good stuff only.
+          </p>
+          <form action="" method="get">
+            <input type="email" placeholder="Enter Your Email" />
+            <label>
+              <input type="submit" />
+              <svg
+                width="24"
+                height="16"
+                viewBox="0 0 24 16"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <rect
+                  x="0.75"
+                  y="0.75"
+                  width="22.5"
+                  height="14.5"
+                  stroke="#F4F3E7"
+                  stroke-width="1.5"
+                />
+                <path
+                  d="M1 1L9.98198 9.16544C11.1262 10.2057 12.8738 10.2057 14.018 9.16544L23 1"
+                  stroke="#F4F3E7"
+                  stroke-width="1.5"
+                />
+                <path
+                  d="M23 15L15.3 8M1 15L8.7 8"
+                  stroke="#F4F3E7"
+                  stroke-width="1.5"
+                />
+              </svg>
+            </label>
+          </form>
+        </div>
+        <div>
+          <img class="footer_img" src="images/mission_badge.png" alt="" />
+        </div>
       </div>
-      <img src="" alt="" />
     </footer>
   </body>
 </html>
